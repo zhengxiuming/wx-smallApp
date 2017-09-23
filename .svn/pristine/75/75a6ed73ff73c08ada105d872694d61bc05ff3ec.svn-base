@@ -1,0 +1,60 @@
+<view class="container">
+  <view class="selection">
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="1500" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="selection">
+    <view class="header">
+      <text>精品图片</text>
+      <text class="text_all">全部图片</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class='content-item' bindtap='resTest'>
+      <image src='{{imgUrl}}'></image>
+      <text class='content-item-text'>Naruto</text>
+    </view>
+    <view class='content-item'>
+      <image src='http://pic.baike.soso.com/p/20130709/20130709100336-527913274.jpg'></image>
+      <text class='content-item-text'>Kurosaki Ichigo</text>
+    </view>
+    <view class='content-item'>
+      <image src='http://tupian.enterdesk.com/2015/xll/06/1/Luffy4.jpg'></image>
+      <text class='content-item-text'>Monkey D Luffy</text>
+    </view>
+    <view class='content-item'>
+      <image src='http://ww2.sinaimg.cn/orj480/e370ecc4jw1f4h5qfuqskj211z0qogpu.jpg'></image>
+      <text class='content-item-text'>Natsu</text>
+    </view>
+  </view>
+  <view class='selection'>
+    <view class="header">
+      <text>热门资源</text>
+      <text class="text_all">全部资源</text>
+    </view>
+    <view class="evaBody">
+      <view class="list-item" wx:for="{{listItem}}">
+        <view class="list-item-image">
+          <image src='{{item.imgUrl}}'></image>
+          <view class="list-icon-item">
+            <image src="{{item.iconUrl}}"></image>
+          </view>
+        </view>
+        <view class="list-item-text">
+          <view class="headerTilte">
+              {{item.text}}
+          </view>
+          <view class="bodyTilte">
+              测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字...
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

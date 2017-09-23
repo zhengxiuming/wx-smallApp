@@ -1,0 +1,109 @@
+.container{
+  width: 100%;
+  height: 400rpx;
+}
+.container swiper{
+  height: 400rpx;
+}
+.container .slide-image{
+  width: 100%;
+  height: 100%;
+}
+.header{
+  border-left:4px solid #47b035;
+  padding-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding-right: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.text_all{
+  font-size: 16px;
+  color: #47b035;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.content .content-item{
+  width: 45%;
+  margin: 10rpx;
+  height: 250rpx;
+  position: relative;
+}
+.content .content-item image{
+  width: 100%;
+  height: 100%;
+}
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.evaBody .list-item{
+  height: 500rpx;
+  width: 100%;
+}
+.evaBody .list-item-image{
+  height: 300rpx;
+  width: 100%;
+  position: relative;
+}
+.evaBody .list-item-text image{
+  width: 100%;
+  height: 100%;
+}
+.list-icon-item{
+  position: absolute;
+  width:100rpx;
+  height:100rpx;
+  bottom: -50rpx;
+  right:50rpx;
+  border-radius: 100rpx;
+  overflow: hidden;
+}
+.list-icon-item image{
+  width: 100%;
+  height: 100%;
+}
+.evaBody .list-item-text{
+  height: 200rpx;
+  width: 100%;
+}
+.headerTilte{
+  height: 30px;
+  font-size: 16px;
+  color:#212121;
+  line-height: 30px;
+  margin-top: 15rpx;
+  padding-left: 20rpx;
+}
+.bodyTilte{
+  font-size: 26rpx;
+  color: #999;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 108rpx;
+  line-height: 36rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.evaBody{
+  margin-top: 10rpx;
+}
