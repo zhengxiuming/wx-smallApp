@@ -1,0 +1,3 @@
+<include file="included/header" title="head标题"/>
+{__CONTENT__}
+<include file="include/footer" title="foot标签"/>
